@@ -1,0 +1,32 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: lightcoral; */
+}
+
+.test-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.test-ads1 {
+  width: 160px;
+  height: 600px;
+  margin-bottom: 10px;
+  background-color: lightcoral;
+}
+
+.test-ads2 {
+  margin-bottom: 10px;
+  width: 728px;
+  height: 90px;
+  background-color: lightblue;
+}
+
+.test-ads3 {
+  margin-bottom: 10px;
+  width: 160px;
+  height: 600px;
+  background-color: lightgray;
+}
