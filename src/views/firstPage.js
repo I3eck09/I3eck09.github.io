@@ -12,29 +12,24 @@ function Home() {
             <ins
               className='skuberg-ads'
             />
-            {/* <iframe src='http://localhost:3001/creatives/render_ads?web_key=35a3mx4sp' frameBorder="0"></iframe> */}
+            {/* <iframe title="banner" src="http://localhost:3001/creatives/render_ads?key=zjutbhu63" width="160" height="600" scrolling="no" frameBorder={0} /> */}
+            <iframe title="banner" src="http://localhost:3001/creatives/render_ads?key=gskmhxsqh" width="300" height="600" scrolling="no" frameBorder={0} />
           </div>
-          {/* <div className='test-ads2'>
+          <div className='test-ads2'>
             <ins
               className='skuberg-ads'
             />
-          </div> */}
-          {/* <div className='test-ads3'>
+            {/* <iframe title="banner" src="http://localhost:3001/creatives/render_ads?key=wpwt2xzke" width="728" height="90" scrolling="no" frameBorder={0} /> */}
+          </div>
+          <div className='test-ads3'>
             <ins
               className='skuberg-ads'
             />
-          </div> */}
-          {/* <div className='test-ads4'>
-            <ins
-              className='skuberg-ads'
-            />
-          </div> */}
+            {/* <iframe title="banner" src="http://localhost:3001/creatives/render_ads?key=wqwyi68e9" width="160" height="600" scrolling="no" frameBorder={0} /> */}
+
+          </div>
         </div>
       </div>
-      {/* <script
-        async
-        src="http://localhost:3001/creatives/render_ads?web_key=35a3mx4sp"
-      ></script> */}
     </div>
   )
 }
